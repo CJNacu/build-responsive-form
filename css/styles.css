@@ -100,3 +100,22 @@ fieldset a {
 fieldset a:hover {
     color: var(--dk-green);
 }
+
+@media only screen and (min-width: 1000px) {
+    section {
+        display: flex;
+    }
+    fieldset {
+        width: 650px;
+    }
+    .heading {
+        padding-right: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    section {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
